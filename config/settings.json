@@ -1,0 +1,10 @@
+{
+    "microphone_device_index": null,
+    "recognition_engine": "google",
+    "confidence_threshold": 0.7,
+    "enable_voice_feedback": false,
+    "require_confirmation_for_destructive": true,
+    "wake_word_enabled": false,
+    "wake_word": "hey computer",
+    "log_level": "INFO"
+}

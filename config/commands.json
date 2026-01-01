@@ -1,0 +1,108 @@
+{
+    "applications": {
+        "chrome": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "firefox": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+        "edge": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "notepad": "notepad.exe",
+        "calculator": "calc.exe",
+        "explorer": "explorer.exe",
+        "word": "C:\\Program Files\\Microsoft Office\\root\\Office16\\WINWORD.EXE",
+        "excel": "C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.EXE",
+        "vscode": "C:\\Users\\{username}\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+    },
+    "command_patterns": {
+        "open_app": [
+            "open {app}",
+            "launch {app}",
+            "start {app}",
+            "run {app}"
+        ],
+        "close_app": [
+            "close {app}",
+            "quit {app}",
+            "exit {app}"
+        ],
+        "file_operations": {
+            "create_folder": [
+                "create folder {name}",
+                "make folder {name}",
+                "new folder {name}"
+            ],
+            "open_folder": [
+                "open {folder}",
+                "go to {folder}",
+                "navigate to {folder}"
+            ],
+            "delete": [
+                "delete {target}",
+                "remove {target}"
+            ]
+        },
+        "system_controls": {
+            "volume_up": [
+                "increase volume",
+                "volume up",
+                "louder"
+            ],
+            "volume_down": [
+                "decrease volume",
+                "volume down",
+                "quieter"
+            ],
+            "mute": [
+                "mute",
+                "silence"
+            ],
+            "screenshot": [
+                "take screenshot",
+                "screenshot",
+                "capture screen"
+            ],
+            "lock": [
+                "lock computer",
+                "lock screen"
+            ],
+            "shutdown": [
+                "shutdown",
+                "shut down computer"
+            ],
+            "restart": [
+                "restart",
+                "reboot"
+            ]
+        },
+        "web": {
+            "search": [
+                "search for {query}",
+                "google {query}",
+                "search {query}"
+            ],
+            "open_url": [
+                "open {url}",
+                "go to {url}",
+                "navigate to {url}"
+            ]
+        },
+        "shortcuts": {
+            "minimize_all": [
+                "show desktop",
+                "minimize all"
+            ],
+            "task_view": [
+                "task view",
+                "show tasks"
+            ],
+            "switch_window": [
+                "switch window",
+                "next window"
+            ]
+        }
+    },
+    "folder_shortcuts": {
+        "downloads": "C:\\Users\\{username}\\Downloads",
+        "documents": "C:\\Users\\{username}\\Documents",
+        "desktop": "C:\\Users\\{username}\\Desktop",
+        "pictures": "C:\\Users\\{username}\\Pictures",
+        "videos": "C:\\Users\\{username}\\Videos"
+    }
+}
